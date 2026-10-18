@@ -55,6 +55,7 @@
             }
         }
 
+        
         public int Grade
         {
             get => grade;
@@ -67,7 +68,8 @@
                 grade = value;
             }
         }
-       
+
+        
         public double AverageScore
         {
             get => averageScore;
@@ -81,6 +83,7 @@
             }
         }
 
+        
         public decimal Fee
         {
             get => fee;
@@ -94,9 +97,10 @@
             }
         }
 
+        
         public bool HasScholarship { get; set; }
 
-
+        
         public char ClassLetter
         {
             get => classLetter;
